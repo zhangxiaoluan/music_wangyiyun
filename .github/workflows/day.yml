@@ -28,9 +28,9 @@ jobs:
     - name: 设置api
       run: echo "api='http://127.0.0.1:3000'" >> NeteaseCloudMusicDay/config.py
     - name: 设置网易云音乐登录账号
-      run: echo "phone='279326317'" >> NeteaseCloudMusicDay/config.py
+      run: echo "phone='15595386267'" >> NeteaseCloudMusicDay/config.py
     - name: 设置网易云音乐登录密码
-      run: echo "password='zkn55...'" >> NeteaseCloudMusicDay/config.py
+      run: echo "password='zkn6121940'" >> NeteaseCloudMusicDay/config.py
     - name: 运行脚本
       run: python3 NeteaseCloudMusicDay/main2.py
 
